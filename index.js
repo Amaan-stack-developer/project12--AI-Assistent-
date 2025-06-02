@@ -21,6 +21,7 @@ btn.addEventListener('click', ()=>{
         }
         else{
             speak("search on google...")
+window.open("https://www.google.com", "_blank")
         }
     }
     speak("Hello, how can i help you?")
