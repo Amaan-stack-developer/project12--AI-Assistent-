@@ -30,7 +30,7 @@ window.open("https://www.google.com", "_blank")
     speak("Hello, how can i help you?")
     setTimeout(()=>{
         recognition.start()
-    },1000);
+    },2000);
 
     recognition.onresult = (event)=>{
         const command = event.results[0][0].transcript.toLowerCase();
